@@ -29,7 +29,7 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 int list_size(listint_t **list);
 int list_size(listint_t **list);
-
+void swap(listint_t **head, listint_t **list1, listint_t *list2);
 
 
 
