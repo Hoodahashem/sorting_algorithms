@@ -7,11 +7,12 @@
 */
 void bubble_sort(int *array, size_t size)
 {
-	int i, j, temp;
+	size_t i, j;
+	int temp;
 
-	for (i = 0; i < size; i++)
+	for (i = 0; i < size - 1; i++)
 	{
-		for (j = i; j < size; j++)
+		for (j = 0; j < size - 1 - i; j++)
 		{
 			if (array[j] > array[j + 1])
 			{
