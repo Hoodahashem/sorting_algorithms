@@ -28,6 +28,9 @@ void insertion_sort_list(listint_t **list);
 int list_size(listint_t **list);
 void swap(listint_t **head, listint_t **list1, listint_t *list2);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+void recursively(int *array, size_t size, int lb, int ub);
+int partition(int *array, size_t size, int lb, int ub);
 
 
 
